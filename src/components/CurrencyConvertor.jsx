@@ -5,7 +5,7 @@ const CurrencyConvertor = () => {
 
   const [amount, setAmount] = useState("1"); // stores the amount user types. linked with the input box
   const [fromCurrency, setFromCurrency] = useState("USD") // stores the from currency 
-  const [toCurrency, setToCurrency] = useState("AED") // stores the to currency
+  const [toCurrency, setToCurrency] = useState("PKR") // stores the to currency
   const [exchangeRate, setExchangeRate] = useState(null); // stores the rates of both currency
   const [convertedAmount, setConvertedAmount] = useState(null); // stores the converted amount
   const [currencies, setCurrencies] = useState([]); // stores the currency that is fetched from the api. you will see it in options
